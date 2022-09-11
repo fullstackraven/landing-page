@@ -4,6 +4,15 @@ body {
     background-color: rgb(51, 51, 51);
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-image: url(./img/fsr-background.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: auto;
 }
 
 .header {
@@ -43,7 +52,7 @@ ul {
 }
 
 .sub-header { 
-    background-color: rgb(51, 51, 51);
+    opacity: 100%;
     display: flex;
     justify-content: space-around;
     padding: 8px 16px;
@@ -60,7 +69,7 @@ ul {
 
 .sub-heading {
     color: rgb(230, 230, 230);
-    font-weight: 100;
+    font-weight: 300;
     font-size: 32px;
     padding: 20px;
     margin: 0;
@@ -76,49 +85,110 @@ ul {
     background-color: rgb(230, 230, 230);
     font-weight: 200;
     font-size: 24px;
-    padding: 8px;
+    padding: 8px 16px;
     color: rgb(51, 51, 51);
 }
 
 img {
-    width: 500px;
-    height: auto;
     border-radius: 50%;
 }
 
-.info {
+.info-title {
     background-color: rgb(230, 230, 230);
     color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    background-color: rgb(230, 230, 230);
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.content {
+    max-width: 200px;
     text-align: center;
 }
 
-.quote-section {
+.text {
+    padding-top: 8px;
+}
+
+
+.quote {
     background-color: rgb(153, 153, 153);
     color:rgb(230, 230, 230);
+    text-shadow: 2px 2px rgb(51, 51, 51);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    mix-blend-mode: difference;
-}
-
-.quote {
     font-size: 48px;
     font-style: italic;
     font-weight: 100;
+    margin-top: 48px;
 }
 
 .author {
+    background-color: rgb(153, 153, 153);
+    color:rgb(230, 230, 230);
+    text-shadow: 2px 2px rgb(51, 51, 51);
     font-size: 32px;
     font-style: italic;
     font-weight: 300;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    padding-left: 500px;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .sub-footer {
     background-color: rgb(230, 230, 230);
     color: rgb(51, 51, 51);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.island  {
+    background-color: rgb(51, 51, 51);
+    color: rgb(230, 230, 230);
+    font-size: 24px;
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+h3 {
+    margin: 0;
+}
+
+text {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.sub-footer-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.sub-footer-button {
+    border-radius: 10px;
+    border: 2px solid rgb(230, 230, 230);
+    background-color: rgb(51, 51, 51);
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {
