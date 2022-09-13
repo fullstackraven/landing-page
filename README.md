@@ -7,3 +7,5 @@ Demonstrated skills:
 HTML
 CSS
 Flexbox
+
+Photos and pixel art created by myself: Full Stack Raven
