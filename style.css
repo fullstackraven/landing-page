@@ -209,14 +209,30 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(144, 179, 91);
-}
-
-a:active {
+a:link {
     color: rgb(230, 230, 230);
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:visited {
     color: rgb(144, 179, 91);
+    background-color: transparent;
+    text-decoration: none;
 }
+
+a:hover {
+    color: #fcab55;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(230, 230, 230);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
