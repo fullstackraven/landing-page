@@ -10,13 +10,14 @@
 </head>
 <body>
   <div id="wrapper">
+    <div id="top"></div>
     <div class="header"> <!-- Set header for webpage navigation -->
-       <div class="header-logo">Full Stack Raven</div> 
+       <a href="#top" style="display:flex; align-items: center;"><div class="header-logo">Full Stack Raven</div></a>  
        <div class="header-links">
         <ul> <!-- Link to webpage content -->
             <li class="links">About</li>
             <li class="links">Contact</li>
-            <li class="links">Portfolio</li>
+            <li class="links"><a href="#join" style="color: rgb(153, 153, 153);">Join!</a></li>
         </ul>
        </div>
     </div>
@@ -82,16 +83,17 @@
       <!-- Contain a quote with credit to author-->
       <div class="quote">
            <p>"Huginn and Muninn
-            Fly every day <br>
+            fly every day <br>
             Over the great earth. <br>
             I fear for Hugin <br>
             That he may not return, <br>
             Yet more am I anxious for Munin."</p>
       </div>
-      <div class="author">-Rafnagud</div>
+      <div class="author">-Hrafnagud</div>
       
-      <div class="sub-footer"> <!-- Promotion for learning to code self-taught -->
-        <div class="island">
+      <!-- Promotion for learning to code self-taught -->
+      <div class="sub-footer"> 
+        <div id="join" class="island">
             <div class="island-text">
               <h3>Join The Odin Project! It's time!</h3>
               <text>High quality coding education created <br> by an Open-Source community.</text>
@@ -103,7 +105,8 @@
         
       </div>
 
-      <div class="footer"> <!-- Give copyright credits -->
+      <!-- Give copyright credits -->
+      <div class="footer"> 
         Copyright © <a href="https://github.com/fullstackraven">Full Stack Raven</a><br>
         In conjunction with <a href="https://www.theodinproject.com/">The Odin Project</a>
       </div>
