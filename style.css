@@ -19,6 +19,7 @@ body {
     margin: 0 0 10px 0;
     background-color: rgb(51, 51, 51);
     position: sticky;
+    z-index: 1;
     top: 0;
     width: 100%;
     height: auto;
@@ -56,6 +57,7 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 8px 16px;
+    margin-bottom: 80px;
 }
 
 .heading { 
@@ -81,16 +83,12 @@ ul {
 
 .sub-header-button {
     border: 5px solid rgb(144, 179, 91);
-    border-radius: 40px;
+    border-radius: 10px;
     background-color: rgb(230, 230, 230);
     font-weight: 200;
     font-size: 24px;
     padding: 8px 16px;
     color: rgb(51, 51, 51);
-}
-
-img {
-    border-radius: 50%;
 }
 
 .info-title {
@@ -112,6 +110,14 @@ img {
 .content {
     max-width: 200px;
     text-align: center;
+}
+
+.content-image-static {
+    position: absolute;
+}
+
+.content-image-static:hover {
+    opacity: 0;
 }
 
 .text {
@@ -159,6 +165,7 @@ img {
 .island  {
     background-color: rgb(51, 51, 51);
     color: rgb(230, 230, 230);
+    border-radius: 8px;
     font-size: 24px;
     padding: 40px 100px 40px 100px;
     display: flex;
@@ -187,8 +194,7 @@ text {
     background-color: rgb(51, 51, 51);
     color: rgb(230, 230, 230);
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 8px 20px;
 }
 
 .footer {
