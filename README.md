@@ -1,5 +1,5 @@
 # Landing Page
-*TOP landing page assignment*
+
 This originated as a project from TOP, that I have expanded on and created a full site. 
 The site includes a little about me, ways to follow my web dev journey, skills I am gaining and
 most importantly, live previews of all my completed projects!
