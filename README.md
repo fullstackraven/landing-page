@@ -1,13 +1,21 @@
-# landing-page
+# Landing Page
 *TOP landing page assignment*
-This is a sample of a landing page and the second exercise following The Odin Project course.
+This originated as a project from TOP, that I have expanded on and created a full site. 
+The site includes a little about me, ways to follow my web dev journey, skills I am gaining and
+most importantly, live previews of all my completed projects!
 
-Demonstrated skills:
+Explore and enjoy!
 
-HTML
-CSS
-Flexbox
+## Demonstrated skills:
 
-Photos and pixel art created by myself: Full Stack Raven
+- Version control
+- HTML
+- CSS
+- Flexbox
+- JavaScript
 
-Live Site: https://fullstackraven.github.io/landing-page
+## Photos and pixel art created by myself: Full Stack Raven
+
+# Live Site: 
+https://fullstackraven.github.io/landing-page
+
