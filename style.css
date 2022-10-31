@@ -21,7 +21,7 @@ body {
     position: sticky;
     z-index: 1;
     top: 0;
-    width: 100%;
+    width: 101%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -95,21 +95,24 @@ ul {
     background-color: rgb(230, 230, 230);
     color: rgb(51, 51, 51);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
 }
 
 .content-container {
     background-color: rgb(230, 230, 230);
     color: rgb(51, 51, 51);
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
     padding: 20px;
+    
 }
 
 .content {
-    max-width: 300px;
+    max-width: 200px;
     text-align: center;
 }
 
@@ -128,6 +131,7 @@ ul {
 
 .content-btn:hover{
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .text {
@@ -147,6 +151,10 @@ ul {
     font-style: italic;
     font-weight: 100;
     margin-top: 48px;
+}
+
+.quote-container{
+    box-shadow: 5px 5px 5px black;
 }
 
 .author {
@@ -170,6 +178,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px black;
 }
 
 .island  {
